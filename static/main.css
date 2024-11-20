@@ -1,0 +1,63 @@
+:root {
+  --back:white;
+  --text:black;
+}
+
+body.darkmode {
+  --back:black;
+  --text:white;
+}
+
+* {
+  color: var(--text);
+  transition: all 1s;
+}
+
+body {
+  margin: 0%;
+  font-family: inter;
+  display: flex;
+  justify-content: center;
+  background-color: var(--back);
+}
+body a {
+  text-decoration: none;
+  color: var(--text);
+}
+body h1 {
+  text-align: center;
+  color: var(--text);
+}
+body table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 400px;
+}
+body table td, body table th {
+  border: 1px solid;
+  border-color: var(--text);
+  text-align: center;
+  padding: 8px;
+  background-color: var(--back);
+}
+body .input-text {
+  background-color: var(--back);
+  border: 1px solid var(--text);
+  width: 318px;
+  margin-top: 5px;
+}
+body .input-sumbit {
+  background-color: var(--back);
+  color: var(--text);
+  border: 1px solid var(--text);
+  cursor: pointer;
+  margin-top: 5px;
+}
+body button {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  background-color: var(--back);
+  border: 1px solid var(--text);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
