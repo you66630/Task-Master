@@ -10,7 +10,6 @@ body.darkmode {
 
 * {
   color: var(--text);
-  transition: all 1s;
 }
 
 body {
